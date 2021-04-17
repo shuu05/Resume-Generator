@@ -1,0 +1,66 @@
+
+.extra-margins {
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
+}
+
+/*
+.navbar.navbar-dark .navbar-nav .nav-item a {
+    color: black;
+    transition: .35s;
+}
+*/
+
+/*
+.navbar-dark .navbar-brand {
+    color: black;
+}
+*/
+
+main {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+
+.navbar {
+    background-color: transparent;
+    color: black;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+.scrolling-navbar {
+        -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+        transition: background .5s ease-in-out, padding .5s ease-in-out;
+}
+
+.top-nav-collapse {
+    background-color: #1C2331;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: #1C2331;
+    }
+}
+
+.mainHeading{
+    text-align: center;
+}
+
+.padMe{
+    padding: 60px;
+}.
+
+
+.matchMyCols{
+    overflow: hidden;
+}
+
+.matchMyCols [class*="card-block card-text text-xs-center"]
+{
+    min-height: 300px;
+}

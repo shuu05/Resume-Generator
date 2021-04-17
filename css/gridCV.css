@@ -1,0 +1,158 @@
+#basicInfo {
+    display: none;
+}
+
+#skillForm {
+    display: none;
+}
+
+#userExperienceForm {
+    display: none;
+}
+
+#userEducationForm {
+    display: none;
+}
+
+#userHobbiesForm {
+    display: none;
+}
+
+#userProjectForm{
+  display: none;
+}
+
+#formPreview {
+    position: absolute;
+    right: 0px;
+    /*right: 0px;
+    height: 100%;
+    width: 100%;
+    top: 0px;*/
+    padding-left: 18px;
+      /*border: 1px solid black;*/
+    /*font-family: 'Slabo 27px', serif;*/
+    /*font-family: 'Quicksand', sans-serif;*/
+    left: 0px;
+}
+
+#selectFormatForm {
+    display: none;
+}
+
+#chooseTemplateForm {
+    /*border: 1px solid black;*/
+}
+
+.templateTheme {
+    padding-top: 25px;
+}
+
+@media print {
+    @page {
+        margin: 0;
+    }
+    body {
+        margin: 1.6cm;
+    }
+}
+
+.centerMeNow {
+    text-align: center;
+    background-color: #252f43;
+    margin: 0px;
+    padding: 30px;
+    color: aliceblue;
+}
+
+.centerMeNowP {
+    text-align: center;
+    background-color: #252f43;
+    margin: 0px;
+    color: aliceblue;
+    padding: 5px;
+    font-size: 150%;
+}
+
+.marginMe {
+    overflow: hidden;
+}
+
+.colorMe {
+    background-color: firebrick;
+    border: 3px solid black;
+}
+
+#nav {
+    left: 0;
+    top: 0;
+    height: 100%;
+}
+
+.padMeBro {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+/*#previewFormSection {
+    position: absolute;
+    width: 100%;
+    padding-right: 100px;
+    top: 5px;
+}*/
+
+#resumePreviewID{
+  height : 100%;
+  width: 50%;
+  position: absolute;
+  right: 0px;
+  top:28px;
+  transition: left 1s ease;
+}
+
+#fillingForm{
+  transition: left 1s ease;
+}
+/*.row{
+  text-align: left;
+}*/
+
+
+.padDiv{
+    padding-bottom: 20px;
+}
+
+.padDivCorners{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.padForm{
+  padding: 50px;
+}
+
+#showPreviewButton{
+  display: none;
+}
+
+.btn{
+  border-radius: 0px;
+}
+@media(max-width : 800px){
+  #resumePreviewID{
+    position: absolute;
+    left: -60%;
+    /*position: absolute;
+    top:500px;
+    left: 18%;
+    width: 60%;
+    border-top: 3px solid black;*/
+  }
+
+  #fillingForm{
+    width: 100%;
+  }
+  #showPreviewButton{
+    display: block;
+  }
+}
